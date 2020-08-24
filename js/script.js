@@ -34,7 +34,14 @@ $.ajax({
     },
     success: function (data) {
 
-        console.log(data);
+        $('#latest-video1').append(`
+        <div class="col">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/` + data.items[0].id.videoId + `" allowfullscreen></iframe>
+            </div>
+        </div>
+        `)
 
     }
 });
