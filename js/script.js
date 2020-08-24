@@ -16,6 +16,7 @@ $.ajax({
         <div class="col-md-8">
             <h5>` + data.items[0].snippet.title + `</h5>
             <p>` + data.items[0].statistics.subscriberCount + ` Subscribers.</p>
+            <div class="g-ytsubscribe" data-channelid="UC-lHJZR3Gqxm24_Vd_AJ5Yw" data-layout="default" data-count="default"></div>
         </div>
         `);
     }
@@ -64,6 +65,7 @@ $.ajax({
         <div class="col-md-8">
             <h5>` + data.items[0].snippet.title + `</h5>
             <p>` + data.items[0].statistics.subscriberCount + ` Subscribers.</p>
+            <div class="g-ytsubscribe" data-channelid="UCq-Fj5jknLsUf-MWSy4_brA" data-layout="default" data-count="default"></div>
         </div>
         `);
     }
